@@ -1,0 +1,833 @@
+@media screen and (max-width: 1400px) {
+    /* hero section start */
+    .hero {
+        height: 650px;
+    }
+
+    #para1 {
+        font-size: 38px;
+        top: 350px;
+    }
+
+    #para2 {
+        font-size: 13px;
+        top: 420px;
+    }
+
+    /* hero button */
+    #btn1 {
+        top: 480px;
+    }
+    /* hero section end */
+
+    /* first section start */
+    .ser-para {
+        font-size: 12px;
+        margin-left: 30px;
+    }
+
+    /* center box & icon */
+    .settings1 {
+        margin: 50px 25px;
+    }
+    /* first section end */
+
+    /* second section start */
+    /* under big font */
+    .subcribe{
+        font-size: 38px;
+    }
+
+    /* button 2 */
+    #btn2 {
+        font-size: 22px;
+    }
+    /* second section end */
+
+    /* third section start */
+    .product {
+        margin-bottom: 0px;
+    }
+
+    #product-head {
+        font-size: 32px;
+    }
+
+    /* iamges */
+    .img1 {
+        width: 350px;
+        height: 280px;
+    }
+    /* third section end */
+
+    /* footer section */
+    /* right part */
+    .foot-part {
+        height: 300px;
+    }
+
+    .connect {
+        width: 350px;
+        margin: 0 20px 0 30px;
+    }
+
+    #stay {
+        font-size: 20px;
+    }
+
+    .fa-brands {
+        font-size: 40px;
+    }
+
+    /* middle part */
+
+    #gera, #cont {
+        margin: 32px 0 0 0;
+    }
+
+    #gera, #cont {
+        font-size: 25px;
+    }
+
+    .adds {
+        margin: 12px;
+    }
+
+    
+    /* icon */
+    .icon {
+        width: 10px;
+        font-size: 20px;
+    }
+
+    /* font */
+    .para {
+        font-size: 15px;
+    }
+
+    .form-part1 {
+        margin: 5px;
+    }
+
+    input[type="text"] {
+        height: 30px;
+    }
+
+    #msg {
+        height: 70px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    /* hero section start */
+    .hero {
+        height: 500px;
+    }
+
+    .logo {
+        font-size: 35px;
+    }
+
+    a{
+        font-size: 16px;
+        padding: 5px;
+    }
+
+    #para1 {
+        font-size: 25px;
+        top: 280px;
+    }
+
+    #para2 {
+        font-size: 10px;
+        top: 330px;
+    }
+
+    /* hero button */
+    #btn1 {
+        top: 380px;
+        padding: 8px 20px;
+        font-size: 15px;
+    }
+    /* hero part end */
+
+
+    /* first section start */
+    .ser-para {
+        font-size: 14px;
+        margin-left: 0px;
+    }
+
+    /* center box & icon */
+    .settings1 {
+        width: 95%;
+        display: block;
+        margin: 50px 40px;
+    }
+
+    .icon1 {
+        font-size: 60px;
+        padding: 20px;
+    }
+
+    .set-about {
+        font-size: 18px;
+    }
+    /* first section end */
+
+    /* second section start */
+    /* under big font */
+    .news-img {
+        height: 180px;
+    }
+
+    input[type="mail"]{
+        width: 25%;
+        font-size: 14px;
+    }
+
+    /* button 2 */
+    #btn2 {
+        padding: 5px 10px;
+        font-size: 15px;
+    }
+    /* second section end */
+
+    /* third section start */
+    .product {
+        height: 950px;
+    }
+
+    #product-head {
+        font-size: 32px;
+    }
+
+    .product-img {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        margin-left: 0px;
+    }
+
+    /* iamges */
+    .img1 {
+        width: 95%;
+        height: 350px;
+    }
+    /* third section end */
+
+    /* footer section */
+    /* right part */
+    .foot-part {
+        height: 350px;
+    }
+
+    .connect {
+        width: 350px;
+        margin: 0 20px 0 10px;
+        padding: 40px 10px;
+    }
+
+    /* middle part */
+
+    #gera, #cont {
+        margin: 32px 0 0 0;
+    }
+
+    #gera, #cont {
+        font-size: 25px;
+    }
+
+    .adds {
+        margin: 12px;
+    }
+
+    
+    /* icon */
+    .icon {
+        width: 10px;
+        font-size: 30px;
+        padding: 0;
+    }
+
+    /* font */
+    .para {
+        font-size: 18px;
+        margin: 0 30px;
+    }
+
+    .form-part1 {
+        margin: 5px 20px 5px 5px;
+    }
+
+    input[type="text"] {
+        height: 40px;
+        width: 100%;
+    }
+
+    #msg {
+        width: 100%;
+        height: 90px;
+    }
+
+    .last-past {
+        font-size: 14px;
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    /* hero section start */
+    .hero {
+        height: 450px;
+    }
+
+    .logo {
+        font-size: 30px;
+        padding-top: 20px;
+    }
+
+    a{
+        display: none;
+    }
+
+    .manu {
+        display: block;
+    }
+
+    #para1 {
+        font-size: 22px;
+        top: 260px;
+    }
+
+    #para2 {
+        font-size: 8px;
+        top: 300px;
+    }
+
+    /* hero button */
+    #btn1 {
+        top: 350px;
+        padding: 6px 15px;
+        font-size: 15px;
+    }
+    /* hero part end */
+
+
+    /* first section start */
+    .ser {
+        padding: 30px 0;
+    }
+
+    .ser-para {
+        font-size: 12px;
+    }
+
+    /* center box & icon */
+    .settings1 {
+        margin: 20px 0px;
+    }
+
+    .fa-solid {
+        font-size: 50px;
+        padding: 20px;
+    }
+
+    .set-about {
+        font-size: 18px;
+    }
+    /* first section end */
+
+    /* second section start */
+    /* under big font */
+    .news-img {
+        height: 160px;
+    }
+
+    .subcribe{
+        font-size: 30px;
+    }
+
+    input[type="mail"]{
+        width: 25%;
+        font-size: 12px;
+        height: 35px;
+    }
+
+    /* button 2 */
+    #btn2 {
+        height: 35px;
+        padding: 2px 8px;
+        font-size: 12px;
+    }
+    /* second section end */
+
+    /* third section start */
+    .product {
+        height: 800px;
+    }
+
+    #product-head {
+        font-size: 26px;
+    }
+
+    /* iamges */
+    .img1 {
+        width: 95%;
+        height: 300px;
+    }
+    /* third section end */
+
+    /* footer section */
+    .foot-part {
+        width: 100%;
+        height: 800px;
+        display: block;
+    }
+
+    /* right part */
+    .connect {
+        width: 100%;
+        height: 120px;
+        margin: 0;
+        padding-top: 15px;
+    }
+
+    #stay {
+        margin: 10px;
+        font-size: 25px;
+    }
+
+    /* middle part */
+    .gen {
+        width: 100%;
+        height: 250px;
+    }
+
+    #gera, #cont {
+        font-size: 28px;
+        margin: 32px;
+    }
+
+    .adds {
+        margin: 13px 50px;
+    }
+
+    
+    /* icon */
+    .icon {
+        width: 10px;
+        font-size: 30px;
+        padding: 0;
+    }
+
+    /* font */
+    .para {
+        font-size: 20px;
+        margin: 0 30px;
+    }
+
+    .form-part1 {
+        margin: 5px 20px 5px 25px;
+    }
+
+    .form-part {
+        width: 100%;
+        height: 370px;
+    }
+
+    input[type="text"] {
+        height: 40px;
+        width: 100%;
+        font-size: 18px;
+    }
+
+    #msg {
+        width: 100%;
+        height: 120px;
+        font-size: 18px;
+    }
+
+    .last-past {
+        font-size: 14px;
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    /* hero section start */
+    .hero {
+        height: 400px;
+    }
+
+    .logo {
+        font-size: 30px;
+        padding-top: 10px;
+    }
+
+    .nav-part {
+        height: 60px;
+    }
+
+    .sitebar{
+        margin: 20px 50px;
+    }
+
+    #para1 {
+        font-size: 19px;
+        top: 200px;
+    }
+
+    #para2 {
+        font-size: 6px;
+        top: 240px;
+    }
+
+    /* hero button */
+    #btn1 {
+        top: 270px;
+        padding: 6px 15px;
+        font-size: 10px;
+    }
+    /* hero part end */
+
+
+    /* first section start */
+    .ser {
+        padding: 30px 0;
+    }
+
+    #ser-head {
+        font-size: 25px;
+    }
+
+    .ser-para {
+        font-size: 8px;
+    }
+
+    /* center box & icon */
+    .settings1 {
+        margin: 10px 0px;
+    }
+
+    .fa-solid {
+        font-size: 30px;
+        padding: 20px;
+    }
+
+    .set-about {
+        font-size: 12px;
+    }
+    /* first section end */
+
+    /* second section start */
+    /* under big font */
+    .news-img {
+        height: 140px;
+        margin-bottom: 30px;
+    }
+
+    .subcribe{
+        font-size: 22px;
+    }
+
+    input[type="mail"]{
+        width: 25%;
+        font-size: 10px;
+        height: 30px;
+    }
+
+    /* button 2 */
+    #btn2 {
+        height: 30px;
+        padding: 2px 8px;
+        font-size: 12px;
+    }
+    /* second section end */
+
+    /* third section start */
+    .product {
+        height: 580px;
+    }
+
+    #product-head {
+        font-size: 20px;
+    }
+
+    /* iamges */
+    .img1 {
+        width: 95%;
+        height: 215px;
+    }
+    /* third section end */
+
+    /* footer section */
+    .foot-part {
+        height: 800px;
+        display: block;
+    }
+
+    /* right part */
+    .connect {
+        height: 90px;
+        padding-top: 7px;
+    }
+
+    #stay {
+        margin: 10px;
+        font-size: 20px;
+    }
+
+    .fa-brands {
+        font-size: 25px;
+    }
+
+    /* middle part */
+    .gen {
+        width: 100%;
+        height: 220px;
+    }
+
+    #gera, #cont {
+        font-size: 25px;
+        margin: 32px;
+    }
+
+    .adds {
+        margin: 13px 50px;
+    }
+
+    
+    /* icon */
+    .icon {
+        width: 10px;
+        font-size: 24px;
+        padding: 0;
+    }
+
+    /* font */
+    .para {
+        font-size: 18px;
+        margin: 0 30px;
+    }
+
+    /* form part */
+    .form-part1 {
+        margin: 5px 20px 5px 25px;
+    }
+
+    #cont {
+        font-size: 22px;
+        margin: 30px 30px 25px 30px;
+    }
+
+    .form-part {
+        width: 100%;
+        height: 350px;
+    }
+
+    input[type="text"] {
+        height: 40px;
+        width: 100%;
+        font-size: 18px;
+    }
+
+    #msg {
+        width: 100%;
+        height: 120px;
+        font-size: 18px;
+    }
+
+    .last-past {
+        font-size: 14px;
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    /* hero section start */
+    .hero {
+        height: 300px;
+    }
+
+    .logo {
+        font-size: 25px;
+    }
+
+    #para1 {
+        font-size: 14px;
+        top: 170px;
+    }
+
+    #para2 {
+        font-size: 4px;
+        top: 200px;
+    }
+
+    /* hero button */
+    #btn1 {
+        top: 220px;
+        padding: 4px 12px;
+        font-size: 8px;
+    }
+    /* hero part end */
+
+
+    /* first section start */
+    .ser {
+        padding: 30px 0;
+    }
+
+    #ser-head {
+        font-size: 22px;
+    }
+
+    .ser-para {
+        font-size: 5px;
+    }
+
+    /* center box & icon */
+    .settings1 {
+        margin: 10px 0px;
+    }
+
+    .fa-solid {
+        font-size: 25px;
+        padding: 20px;
+    }
+
+    .set-about {
+        font-size: 10px;
+    }
+    /* first section end */
+
+    /* second section start */
+    /* under big font */
+    .news-img {
+        height: 120px;
+        margin-bottom: 30px;
+    }
+
+    .subcribe{
+        font-size: 18px;
+    }
+
+    input[type="mail"]{
+        width: 30%;
+        font-size: 8px;
+        height: 26px;
+    }
+
+    /* button 2 */
+    #btn2 {
+        width: 20%;
+        height: 27px;
+        padding: 2px 8px;
+        font-size: 8px;
+    }
+    /* second section end */
+
+    /* third section start */
+    .product {
+        height: 450px;
+    }
+
+    #product-head {
+        font-size: 18px;
+    }
+
+    .product-img {
+        width: 95%;
+        
+    }
+
+    /* iamges */
+    .img1 {
+        width: 90%;
+        height: 160px;
+    }
+    /* third section end */
+
+    /* footer section */
+    .foot-part {
+        height: 640px;
+        display: block;
+    }
+
+    /* right part */
+    .connect {
+        height: 80px;
+        padding-top: 5px;
+    }
+
+    #stay {
+        margin: 5px;
+        font-size: 20px;
+    }
+
+    .fa-brands {
+        font-size: 25px;
+    }
+
+    /* middle part */
+    .gen {
+        width: 100%;
+        height: 220px;
+    }
+
+    #gera {
+        font-size: 20px;
+        margin: 32px;
+    }
+
+    .adds {
+        margin: 8px 50px;
+    }
+
+    
+    /* icon */
+    .icon {
+        width: 10px;
+        font-size: 18px;
+        padding: 0;
+    }
+
+    /* font */
+    .para {
+        font-size: 13px;
+        margin: 0 30px;
+    }
+
+    /* form part */
+    .form-part1 {
+        margin: 5px 20px 5px 25px;
+    }
+
+    #cont {
+        font-size: 18px;
+        margin: 15px 30px;
+    }
+
+    .form-part {
+        width: 100%;
+        height: 300px;
+    }
+
+    input[type="text"] {
+        height: 30px;
+        width: 100%;
+        font-size: 15px;
+    }
+
+    #msg {
+        width: 100%;
+        height: 100px;
+        font-size: 15px;
+    }
+
+    /* last part */
+    .last-past {
+        font-size: 8px;
+        height: 35px;
+    }
+}

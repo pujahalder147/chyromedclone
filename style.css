@@ -1,0 +1,367 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* hero section start */
+.hero {
+    width: 100%;
+    height: 700px;
+    background-image: url("images/hero-img.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* nav part */
+.nav-part {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.7);
+    position: fixed;
+    width: 98.50%;
+}
+
+nav {
+    text-align: center;
+}
+
+/* logo */
+.logo {
+    color: rgb(16, 162, 113);
+    font-size: 40px;
+    padding: 10px 30px;
+    font-weight: 700;
+}
+
+/* site bar and manu */
+.sitebar{
+    margin: 30px 50px;
+}
+
+.manu {
+    display: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+a:hover {
+    color: red;
+}
+
+/* hero big para */
+#para1 {
+    position: absolute;
+    top: 400px;
+    right: 40px;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+/* hero small para */
+#para2 {
+    position: absolute;
+    top: 480px;
+    right: 40px;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+/* hero button */
+#btn1 {
+    position: absolute;
+    top: 550px;
+    right: 50px;
+    text-transform: uppercase;
+    padding: 8px 20px;
+    font-size: 18px;
+    background-color: transparent;
+}
+
+#btn1:hover {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: none;
+}
+/* hero section start */
+
+/* first section start */
+.ser {
+    width: 95%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* service logo */
+#ser-head {
+    font-size: 35px;
+    text-transform: uppercase;
+    text-decoration: underline green;
+    text-underline-offset: 15px;
+    margin: 0 0 30px 0;
+}
+
+/* center box & icon */
+.settings1 {
+    width: 95%;
+    display: flex;
+    margin: 50px 60px;
+}
+
+/* icon */
+.icon1 {
+    font-size: 50px;
+    color: rgb(7, 148, 101);
+    padding: 0 50px;
+}
+/* first section end */
+
+/* second section start */
+.news-img {
+    width: 100%;
+    height: 200px;
+    background-image: url("images/grass-img.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 50px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* under big font */
+.subcribe{
+    text-transform: uppercase;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+/* email input */
+input[type="mail"]{
+    width: 30%;
+    height: 42px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    font-size: 18px;
+}
+
+/* button 2 */
+#btn2 {
+    width: 15%;
+    height: 45px;
+    margin: 0 10px;
+    background-color: rgb(64, 239, 181);
+    color: black;
+    border: none;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#btn2:hover {
+    background-color: rgb(224, 180, 19);
+    color: white;
+}
+/* second section end */
+
+/* third section start */
+.product {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* big font */
+#product-head {
+    font-size: 35px;
+    text-transform: uppercase;
+    text-decoration: underline green;
+    text-underline-offset: 15px;
+    margin: 0 0 30px 0;
+}
+
+/* product img */
+.product-img {
+    display: flex;
+}
+
+/* iamges */
+.img1 {
+    width: 350px;
+    height: 350px;
+    background-image: url("images/product.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 4px solid rgb(117, 115, 115);
+    margin: 15px;
+}
+
+/* image under font & icon */
+.under {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    top: 60%;
+    left: 45%;
+    transform: translate(-50%, -100%);
+}
+
+.img1:hover {
+    filter: brightness(50%);
+}
+
+.img1:hover .under {
+    opacity: 1;
+    filter: brightness(100%);
+}
+
+/* under font */
+#img-para {
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* under icon */
+.fa-circle-plus {
+    color: white;
+    font-size: 25px;
+}
+
+/* under small font */
+#view {
+    color: white;
+    font-size: 20px;
+}
+/* third section start */
+
+/* footer section */
+.foot-part {
+    width: 100%;
+    height: 370px;
+    background-color: antiquewhite;
+    display: flex;
+}
+
+/* lest footer part */
+.connect {
+    height: 100%;
+    width: 300px;
+    margin: 0 50px;
+    padding-top: 35px;
+    background-color: rgb(4, 184, 124);
+    color: white;
+    text-align: center;
+}
+
+/* under font*/
+#stay {
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.fa-brands {
+    font-size: 50px;
+}
+
+/* middle & right part */
+.gen, .form-part {
+    width: 550px;
+    height: 100%;
+}
+
+#gera, #cont {
+    font-size: 30px;
+    margin: 35px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.foot-part2 {
+    width: 100%;
+    height: 280px;
+    background-color: antiquewhite;
+    display: flex;
+}
+
+/* middle part */
+#addres {
+    padding-top: 20px;
+}
+
+/* address font */
+.adds {
+    display: flex;
+    margin: 15px;
+}
+
+/* icon */
+.icon {
+    font-size: 25px;
+    margin: 10px;
+}
+
+/* font */
+.para {
+    font-size: 20px;
+}
+
+/* end part */
+.form-part1 {
+    margin: 5px 50px;
+}
+
+/* input part */
+input[type="text"] {
+    width: 90%;
+    height: 35px;
+    margin: 8px 0;
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid rgb(150, 148, 148);
+}
+
+/* textarea part */
+#msg {
+    width: 90%;
+    padding: 10px 10px 0px 10px;
+    background-color: transparent;
+    border: 2px solid rgb(150, 148, 148);
+}
+
+/* last part */
+.last-past {
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+    color: gray;
+}
